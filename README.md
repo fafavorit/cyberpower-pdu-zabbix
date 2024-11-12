@@ -1,2 +1,3 @@
 # cyberpower-pdu-zabbix
-Basic Zabbix template for CyberPower PDU
+Very Basic Zabbix template for CyberPower PDU. 
+
