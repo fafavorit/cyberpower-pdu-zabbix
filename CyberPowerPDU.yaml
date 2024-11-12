@@ -1,0 +1,585 @@
+zabbix_export:
+  version: '7.0'
+  template_groups:
+    - uuid: 7df96b18c230490a9a0a9e2307226338
+      name: Templates
+  templates:
+    - uuid: c23e5cedc8214d7aa49239e93d16f745
+      template: FAN_CyberPower
+      name: FAN_CyberPower
+      groups:
+        - name: Templates
+      items:
+        - uuid: 9d700b54bfdd406da921242789717aca
+          name: ePDU2OutletSwitchedInfoName.1
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.1
+          key: ePDU2OutletSwitchedInfoName.1
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: e130e761895e4264a1602403dc0217fb
+          name: ePDU2OutletSwitchedInfoName.2
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.2
+          key: ePDU2OutletSwitchedInfoName.2
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 3d232940e9f74b81ab6d9729a4279c74
+          name: ePDU2OutletSwitchedInfoName.3
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.3
+          key: ePDU2OutletSwitchedInfoName.3
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 8b7185c0aa7c429fa3959bcf5ab70ec2
+          name: ePDU2OutletSwitchedInfoName.4
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.4
+          key: ePDU2OutletSwitchedInfoName.4
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: c45bedd060fe4ce6931ed6d9067e663b
+          name: ePDU2OutletSwitchedInfoName.5
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.5
+          key: ePDU2OutletSwitchedInfoName.5
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 654c3004f88540d98d10f16d02d41587
+          name: ePDU2OutletSwitchedInfoName.6
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.6
+          key: ePDU2OutletSwitchedInfoName.6
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 616b866038fa442fb86da9e1bf2aafb3
+          name: ePDU2OutletSwitchedInfoName.7
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.7
+          key: ePDU2OutletSwitchedInfoName.7
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: c2bddc362f3a48bd8bdbcb3015e89665
+          name: ePDU2OutletSwitchedInfoName.8
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.8
+          key: ePDU2OutletSwitchedInfoName.8
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 85327320b3cb444fb13eb5c9eaab4037
+          name: ePDU2OutletSwitchedInfoName.9
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.9
+          key: ePDU2OutletSwitchedInfoName.9
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 89585f6f1ebd42a9a581bf93b0b67766
+          name: ePDU2OutletSwitchedInfoName.10
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4.10
+          key: ePDU2OutletSwitchedInfoName.10
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 4416c041139a4fe490ebd7074c6be3a2
+          name: ePDU2OutletSwitchedStatusState.1
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.1
+          key: ePDU2OutletSwitchedStatusState.1
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: b33f5c317493468b828c4fac42ce3308
+          name: ePDU2OutletSwitchedStatusState.3
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.3
+          key: ePDU2OutletSwitchedStatusState.3
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: b97f149a9d1042628156db97eea4fc1c
+          name: ePDU2OutletSwitchedStatusState.4
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.4
+          key: ePDU2OutletSwitchedStatusState.4
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 4f93a15a454f4d1b88a77a73f6166c6b
+          name: ePDU2OutletSwitchedStatusState.5
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.5
+          key: ePDU2OutletSwitchedStatusState.5
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: b5dcdca079c3496c9a851d6caa6b1eaf
+          name: ePDU2OutletSwitchedStatusState.6
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.6
+          key: ePDU2OutletSwitchedStatusState.6
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: e573f35d66cd4fbc82aef184645c3e58
+          name: ePDU2OutletSwitchedStatusState.7
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.7
+          key: ePDU2OutletSwitchedStatusState.7
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: c4545ba574e94b49a422f655cb9858f9
+          name: ePDU2OutletSwitchedStatusState.8
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.8
+          key: ePDU2OutletSwitchedStatusState.8
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: f753895a8d684b85a84ddd6cc09f530e
+          name: ePDU2OutletSwitchedStatusState.9
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.9
+          key: ePDU2OutletSwitchedStatusState.9
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 3dea4b4bea5a46ebaad4181113909aa6
+          name: ePDU2OutletSwitchedStatusState.10
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.10
+          key: ePDU2OutletSwitchedStatusState.10
+          history: 2w
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          valuemap:
+            name: PDU_Status
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: a183e150994240cf95f9848f80cfaee3
+          name: get_outlets
+          type: SNMP_AGENT
+          snmp_oid: 'walk[1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4]'
+          key: get_outlets
+          delay: 10m
+          value_type: TEXT
+          trends: '0'
+          status: DISABLED
+          timeout: 15s
+        - uuid: 37eec829ef064428a265af5567a9d543
+          name: Load
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.3.4.1.5.1
+          key: Load
+          history: 2w
+          value_type: FLOAT
+          trends: '0'
+          units: A
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          preprocessing:
+            - type: MULTIPLIER
+              parameters:
+                - '0.1'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 01a37c5d1dfd44beaea6859da0e115b1
+          name: pduLocation
+          type: SNMP_AGENT
+          snmp_oid: 'get[1.3.6.1.4.1.3808.1.1.6.2.2.1.4.1]'
+          key: pduLocation
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: f38803188c8144e69d278dd1952fb908
+          name: pduName
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.2.2.1.3.1
+          key: pduName
+          delay: 1h
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: ecba7acdc29845fd8df9d08df0257f94
+          name: 'Peak Load'
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.3.4.1.6.1
+          key: PeakLoad
+          history: 2w
+          value_type: FLOAT
+          trends: '0'
+          units: A
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          preprocessing:
+            - type: MULTIPLIER
+              parameters:
+                - '0.1'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+        - uuid: 871be05740884bac966d43bd91ac0189
+          name: 'Peak Load Date'
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.3.4.1.7.1
+          key: PeakLoadDate
+          history: 2w
+          value_type: TEXT
+          trends: '0'
+          description: 'Indicates the present switch state of the Rack PDU switched outlet being queried'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+          triggers:
+            - uuid: b3504e8de03f4ab2a3320ebbea0a267d
+              expression: change(/FAN_CyberPower/PeakLoadDate)=1
+              name: 'New maximum peak'
+              priority: WARNING
+        - uuid: c78a5439d4964fc090c2a139f6bd4577
+          name: PowerSourceA
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.9.4.1.5.1
+          key: PowerSourceA
+          history: 2w
+          trends: '0'
+          units: V
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+          triggers:
+            - uuid: 15e2b0ee1c4c48c1be6942b4eb13ba34
+              expression: last(/FAN_CyberPower/PowerSourceA)<200
+              name: 'Power Outage Source A'
+              priority: DISASTER
+        - uuid: 2994c07e79f04f8c87ae2dc5f6000e27
+          name: PowerSourceB
+          type: SNMP_AGENT
+          snmp_oid: 1.3.6.1.4.1.3808.1.1.6.9.4.1.6.1
+          key: PowerSourceB
+          history: 2w
+          trends: '0'
+          units: V
+          description: 'The numeric switched outlet name.'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+          triggers:
+            - uuid: 65cbd533e10b406eb90943ea3f4840b7
+              expression: last(/FAN_CyberPower/PowerSourceB)<200
+              name: 'Power Outage Source B'
+              priority: DISASTER
+        - uuid: 34316c2653d84fcb924ff58b2a3a170d
+          name: uptime
+          type: SNMP_AGENT
+          snmp_oid: 'DISMAN-EVENT-MIB::sysUpTimeInstance'
+          key: uptime
+          history: 7d
+          trends: '0'
+          units: uptime
+          description: 'The numeric switched outlet name.'
+          preprocessing:
+            - type: MULTIPLIER
+              parameters:
+                - '0.01'
+          tags:
+            - tag: Application
+              value: CyberPower_MIB_v2
+      discovery_rules:
+        - uuid: 544f696934ea4696a431eb801492c41e
+          name: discovery_outlets
+          type: SNMP_AGENT
+          snmp_oid: 'discovery[{#OUTLETNAME},1.3.6.1.4.1.3808.1.1.6.6.1.3.1.4,{#OUTLETNR},1.3.6.1.4.1.3808.1.1.6.6.1.3.1.3]'
+          key: discovery_outlets
+          delay: 1h
+          item_prototypes:
+            - uuid: ed574b0cb7794d2eb4da1844efca0ef2
+              name: 'Outlet {#OUTLETNR} - {#OUTLETNAME}  state:'
+              type: SNMP_AGENT
+              snmp_oid: 1.3.6.1.4.1.3808.1.1.6.6.1.4.1.5.1
+              key: 'outlet[{#OUTLETNR}state]'
+              delay: 3m
+              valuemap:
+                name: PDU_Status
+      macros:
+        - macro: '{$SNMP_PORT}'
+          value: '161'
+      dashboards:
+        - uuid: fd91caead42c4c07a40a2c53dcea03ab
+          name: 'PDUNew dashboard'
+          pages:
+            - widgets:
+                - type: gauge
+                  x: '1'
+                  width: '16'
+                  height: '4'
+                  fields:
+                    - type: ITEM
+                      name: itemid.0
+                      value:
+                        host: FAN_CyberPower
+                        key: PowerSourceA
+                    - type: STRING
+                      name: max
+                      value: '280'
+                    - type: STRING
+                      name: min
+                      value: '0'
+                    - type: STRING
+                      name: thresholds.0.color
+                      value: FF465C
+                    - type: STRING
+                      name: thresholds.0.threshold
+                      value: '0'
+                    - type: STRING
+                      name: thresholds.1.color
+                      value: 00FF00
+                    - type: STRING
+                      name: thresholds.1.threshold
+                      value: '207'
+                    - type: STRING
+                      name: thresholds.2.color
+                      value: FF0000
+                    - type: STRING
+                      name: thresholds.2.threshold
+                      value: '253'
+                - type: honeycomb
+                  x: '1'
+                  'y': '4'
+                  width: '32'
+                  height: '6'
+                  fields:
+                    - type: STRING
+                      name: items.0
+                      value: ePDU2OutletSwitchedStatusState.1
+                    - type: STRING
+                      name: items.1
+                      value: ePDU2OutletSwitchedStatusState.3
+                    - type: STRING
+                      name: items.2
+                      value: ePDU2OutletSwitchedStatusState.4
+                    - type: STRING
+                      name: items.3
+                      value: ePDU2OutletSwitchedStatusState.5
+                    - type: STRING
+                      name: items.4
+                      value: ePDU2OutletSwitchedStatusState.6
+                    - type: STRING
+                      name: items.5
+                      value: ePDU2OutletSwitchedStatusState.7
+                    - type: STRING
+                      name: items.6
+                      value: ePDU2OutletSwitchedStatusState.8
+                    - type: STRING
+                      name: items.7
+                      value: ePDU2OutletSwitchedStatusState.9
+                    - type: STRING
+                      name: items.8
+                      value: ePDU2OutletSwitchedStatusState.10
+                    - type: STRING
+                      name: primary_label
+                      value: '{ITEM.NAME}'
+                    - type: STRING
+                      name: reference
+                      value: ZLMUA
+                    - type: STRING
+                      name: thresholds.0.color
+                      value: 00FF00
+                    - type: STRING
+                      name: thresholds.0.threshold
+                      value: '1'
+                    - type: STRING
+                      name: thresholds.1.color
+                      value: FF465C
+                    - type: STRING
+                      name: thresholds.1.threshold
+                      value: '2'
+                - type: gauge
+                  x: '17'
+                  width: '16'
+                  height: '4'
+                  fields:
+                    - type: ITEM
+                      name: itemid.0
+                      value:
+                        host: FAN_CyberPower
+                        key: PowerSourceB
+                    - type: STRING
+                      name: max
+                      value: '280'
+                    - type: STRING
+                      name: min
+                      value: '0'
+                    - type: STRING
+                      name: thresholds.0.color
+                      value: FF465C
+                    - type: STRING
+                      name: thresholds.0.threshold
+                      value: '0'
+                    - type: STRING
+                      name: thresholds.1.color
+                      value: 00FF00
+                    - type: STRING
+                      name: thresholds.1.threshold
+                      value: '207'
+                    - type: STRING
+                      name: thresholds.2.color
+                      value: FF0000
+                    - type: STRING
+                      name: thresholds.2.threshold
+                      value: '253'
+                - type: gauge
+                  x: '33'
+                  width: '18'
+                  height: '4'
+                  fields:
+                    - type: ITEM
+                      name: itemid.0
+                      value:
+                        host: FAN_CyberPower
+                        key: Load
+                    - type: STRING
+                      name: max
+                      value: '100'
+                    - type: STRING
+                      name: min
+                      value: '0'
+                - type: item
+                  x: '33'
+                  'y': '4'
+                  width: '18'
+                  height: '3'
+                  fields:
+                    - type: ITEM
+                      name: itemid.0
+                      value:
+                        host: FAN_CyberPower
+                        key: PeakLoad
+                - type: item
+                  x: '33'
+                  'y': '7'
+                  width: '18'
+                  height: '3'
+                  fields:
+                    - type: ITEM
+                      name: itemid.0
+                      value:
+                        host: FAN_CyberPower
+                        key: PeakLoadDate
+      valuemaps:
+        - uuid: be5e54f86fd74c7796035d5b94ebb554
+          name: PDU_Status
+          mappings:
+            - value: '1'
+              newvalue: 'On'
+            - value: '2'
+              newvalue: 'Off'
